@@ -1,0 +1,123 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 40%;
+  margin: 30px auto;
+  background: $Gris;
+  border-radius: 9px;
+  padding: 2.5% 2.5%;
+  margin-bottom: 100px;
+
+  &__present {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    flex-direction: column;
+    background: $grisClaro;
+    padding: 5% 5%;
+    border-radius: 9px;
+
+    &__title {
+      color: $white;
+      font-family: $FontInter;
+      font-size: 1.23em;
+      font-weight: 900;
+      transition: all .5s ease;
+
+      &:hover {
+        border-bottom: 3px solid $white;
+        margin-bottom: 10px;
+      }
+    }
+    &__desc {
+      color: $white;
+      font-family: $FontInter;
+      font-size: .93em;
+      font-weight: 900;
+      text-align: center;
+
+      span {
+        color: $Gris;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $negro;
+          font-size: .95em;
+        }
+      }
+    }
+  }
+  &__rasones {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    flex-direction: column;
+    background: $grisClaro;
+    padding: 5% 5%;
+    border-radius: 9px;
+
+    &__title {
+      color: $white;
+      font-family: $FontInter;
+      font-size: 1.23em;
+      font-weight: 900;
+      transition: all .5s ease;
+
+      &:hover {
+        border-bottom: 3px solid $white;
+        margin-bottom: 10px;
+      }
+    }
+    &__desc {
+      color: $white;
+      font-family: $FontInter;
+      font-size: .93em;
+      font-weight: 900;
+      text-align: start;
+
+      span {
+        color: $Gris;
+        text-transform: uppercase;
+        transition: all .3s ease;
+
+        &:hover {
+          color: $negro;
+          font-size: .95em;
+        }
+      }
+    }
+    &__links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5px;
+      flex-direction: column;
+      background: $Gris;
+      padding: 5% 5%;
+      border-radius: 9px;
+
+      &__link {
+        color: $white;
+        font-family: $FontInter;
+        font-size: .93em;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: none;
+        transition: all .3s e;
+
+        &:hover {
+          color: $negro;
+          font-size: .95em;
+        }
+      }
+    }
+  }
+}
